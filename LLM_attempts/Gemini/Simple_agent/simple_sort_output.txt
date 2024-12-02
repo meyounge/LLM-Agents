@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\Digit_recognizer_AI_stuff\LLM_Python_Folder\simple_sort.py", line 1, in <module>
+    python
+NameError: name 'python' is not defined

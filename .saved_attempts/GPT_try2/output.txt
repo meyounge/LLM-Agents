@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:\Digit_recognizer_AI_stuff\LLM_Python_Folder\import_dataset.py", line 47, in <module>
+    train_loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True)
+                                               ^^^^^^^
+NameError: name 'dataset' is not defined

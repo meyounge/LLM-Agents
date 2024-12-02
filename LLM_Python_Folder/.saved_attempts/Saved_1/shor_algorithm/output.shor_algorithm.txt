@@ -1,0 +1,4 @@
+  File "C:\Users\micha\Desktop\LLM\LLM_Python_Folder\./shor_algorithm\shor_algorithm.py", line 1
+    import random; def gcd(a, b):
+                   ^^^
+SyntaxError: invalid syntax

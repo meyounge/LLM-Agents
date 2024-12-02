@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\Digit_recognizer_AI_stuff\LLM_Python_Folder\shors_algorithm.py", line 69, in <module>
+    result = shors_algorithm(number_to_factor)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Digit_recognizer_AI_stuff\LLM_Python_Folder\shors_algorithm.py", line 55, in shors_algorithm
+    factor1 = gcd(modular_exponentiation(x, r // 2) + 1, N)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: modular_exponentiation() missing 1 required positional argument: 'modulus'

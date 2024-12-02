@@ -1,0 +1,11 @@
+Training model...
+Model trained successfully.
+Classifying digits...
+Digits classified.
+Traceback (most recent call last):
+  File "D:\Digit_recognizer_AI_stuff\LLM_Python_Folder\test_bench.py", line 18, in <module>
+    run_tests()
+  File "D:\Digit_recognizer_AI_stuff\LLM_Python_Folder\test_bench.py", line 5, in run_tests
+    training_data = digit_classifier.load_data('./Train_Test_Data/train.csv')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'digit_classifier' has no attribute 'load_data'

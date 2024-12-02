@@ -1,0 +1,1 @@
+import os\nimport pandas as pd\n\n# Set the current working directory\os.chdir(os.path.dirname(os.path.abspath(__file__)))\n\n# Load the dataset\ndataset = pd.read_csv('Dataset_information.txt')

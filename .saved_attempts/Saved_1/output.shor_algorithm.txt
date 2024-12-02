@@ -1,0 +1,4 @@
+  File "C:\Users\micha\Desktop\LLM\LLM_Python_Folder\./shor_algorithm.py", line 1
+    import random; def gcd(a, b): if b == 0: return a; return gcd(b, a % b); def mod_exp(b, e, n): if e == 0: return 1; if e % 2 == 0: return mod_exp(b * b % n, e // 2, n); return b * mod_exp(b, e - 1, n) % n; def shor(N): if N <= 1: return 1; if N % 2 == 0: return 2; for a in range(2, N): if gcd(a, N) != 1: return a; r = 1; while pow(a, r, N) != 1: r += 1; if r % 2 == 0: return gcd(a, (pow(a, r // 2, N) + 1) % N) or gcd(a, (pow(a, r // 2, N) - 1) % N); for _ in range(1000): x = random.randint(2, N - 1); if gcd(x, N) != 1: return x; return N; def test(N): print(shor(N)); test(35);
+                   ^^^
+SyntaxError: invalid syntax

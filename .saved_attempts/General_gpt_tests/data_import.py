@@ -1,0 +1,1 @@
+import pandas as pd\nimport os\n\nos.chdir(os.path.dirname(os.path.abspath(__file__)))\n\ntrain_data = pd.read_csv('./Train_Test_Data/train.csv')\ntest_data = pd.read_csv('./Train_Test_Data/test.csv')

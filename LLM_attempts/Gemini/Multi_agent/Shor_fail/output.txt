@@ -1,0 +1,10 @@
+Testing Shor's Algorithm:
+Shor's Algorithm for 15: 3
+Shor's Algorithm for 21: 7
+Shor's Algorithm for 35: 5
+Shor's Algorithm for 100: 100
+Shor's Algorithm for 7: 7
+Shor's Algorithm for 1001: 11
+Shor's Algorithm for 1: 1
+Shor's Algorithm for -5: -5
+Shor's Algorithm for 16: 16
